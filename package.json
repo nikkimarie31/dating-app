@@ -1,12 +1,30 @@
 {
-  "name": "dating-app",
+  "name": "dating-app-frontend",
   "version": "1.0.0",
-  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
-  "main": "eslint.config.js",
+  "description": "Frontend for the Virgin Dating App built with React and Vite.",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",               
+    "build": "vite build",       
+    "serve": "vite preview"       
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "dependencies": {
+    "react": "^18.3.1",           
+    "react-dom": "^18.3.1",       
+    "react-router-dom": "^6.27.0" 
+  },
+  "devDependencies": {
+    "vite": "^5.4.8",                     
+    "@vitejs/plugin-react": "^4.3.2",     
+    "eslint": "^9.12.0",                  
+    "typescript": "^5.6.3",               
+    "@types/react": "^18.3.10",          
+    "@types/react-dom": "^18.3.0"        
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": ["dating-app", "vite", "react", "frontend"],
+  "author": "Nicole Eddy",
+  "license": "MIT"
 }
